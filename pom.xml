@@ -30,6 +30,17 @@
             <artifactId>thymeleaf-layout-dialect</artifactId>
             <version>1.2.9</version>
         </dependency>
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.16</version>
+        </dependency>
     </dependencies>
     <build>
         <!--this is for setting the compiler and language level to java 8-->
